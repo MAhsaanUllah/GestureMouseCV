@@ -142,7 +142,7 @@ hand_gesture_virtual_mouse/
 ## 📂 Project Structure
 
 ```
-HandGesture_Virtual_Mouse/
+GestureMouseCV/
 ├── main.py                 # Application entry point + CLI
 ├── gesture_controller.py   # GestureController class (core engine)
 ├── config.py               # All configuration in one place
@@ -174,8 +174,8 @@ HandGesture_Virtual_Mouse/
 ### 1 — Clone & Create Virtual Environment
 
 ```powershell
-git clone https://github.com/MAhsaanUllah/HandGesture_Virtual_Mouse.git
-cd HandGesture_Virtual_Mouse
+git clone https://github.com/MAhsaanUllah/GestureMouseCV.git
+cd GestureMouseCV
 
 py -3.9 -m venv cv_env
 .\cv_env\Scripts\Activate.ps1

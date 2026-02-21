@@ -28,9 +28,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage      = "https://github.com/MAhsaanUllah/HandGesture_Virtual_Mouse"
-Repository    = "https://github.com/MAhsaanUllah/HandGesture_Virtual_Mouse"
-"Bug Tracker" = "https://github.com/MAhsaanUllah/HandGesture_Virtual_Mouse/issues"
+Homepage      = "https://github.com/MAhsaanUllah/GestureMouseCV"
+Repository    = "https://github.com/MAhsaanUllah/GestureMouseCV"
+"Bug Tracker" = "https://github.com/MAhsaanUllah/GestureMouseCV/issues"
 
 [project.scripts]
 gesture-mouse = "main:main"
