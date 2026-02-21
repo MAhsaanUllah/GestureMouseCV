@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name            = "hand-gesture-virtual-mouse"
+version         = "2.0.0"
+description     = "Control your PC with hand gestures via webcam — real-time CV + ML pipeline"
+readme          = "README.md"
+requires-python = "==3.9.*"
+license         = {text = "MIT"}
+authors         = [
+    {name = "Mahsaan Ullah", email = "mahsaanullah@example.com"},
+]
+keywords = [
+    "computer-vision", "hand-gesture", "virtual-mouse",
+    "mediapipe", "opencv", "real-time", "hci",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+
+[project.urls]
+Homepage      = "https://github.com/MAhsaanUllah/HandGesture_Virtual_Mouse"
+Repository    = "https://github.com/MAhsaanUllah/HandGesture_Virtual_Mouse"
+"Bug Tracker" = "https://github.com/MAhsaanUllah/HandGesture_Virtual_Mouse/issues"
+
+[project.scripts]
+gesture-mouse = "main:main"
+
+[tool.pytest.ini_options]
+testpaths   = ["tests"]
+python_files = ["test_*.py"]
+addopts     = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

@@ -1,0 +1,49 @@
+# =====================================================
+# Hand Gesture Virtual Mouse — Python 3.9 Dependencies
+# =====================================================
+# REQUIRED: Python 3.9.x (64-bit)
+# Download: https://www.python.org/downloads/release/python-3910/
+#
+# SETUP COMMANDS (run in this exact order):
+# ------------------------------------------
+# 1.  py -3.9 -m venv cv_env
+# 2.  .\cv_env\Scripts\Activate.ps1
+# 3.  pip install numpy==1.23.5
+# 4.  pip install opencv-contrib-python==4.6.0.66
+# 5.  pip install pyautogui scikit-learn pandas tensorflow
+# 6.  pip install protobuf==3.20.3 absl-py flatbuffers attrs matplotlib
+# 7.  pip install mediapipe==0.10.5 --no-deps
+# 8.  pip install pytest                     (for running tests)
+# 9.  python main.py                         (run the app)
+#
+# NOTE: MediaPipe MUST be installed last with --no-deps to avoid
+#       version conflicts with OpenCV & protobuf.
+# =====================================================
+
+# Core numeric & vision
+numpy==1.23.5
+opencv-contrib-python==4.6.0.66
+
+# Hand landmark model
+# Install separately: pip install mediapipe==0.10.5 --no-deps
+# mediapipe==0.10.5
+
+# OS interaction
+pyautogui
+
+# ML pipeline
+scikit-learn
+pandas
+
+# MediaPipe runtime dependencies
+protobuf==3.20.3
+absl-py
+flatbuffers
+attrs
+matplotlib
+
+# Optional audio (MediaPipe dependency on some versions)
+sounddevice
+
+# Development / testing
+pytest
