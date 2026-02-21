@@ -10,7 +10,7 @@ readme          = "README.md"
 requires-python = "==3.9.*"
 license         = {text = "MIT"}
 authors         = [
-    {name = "Mahsaan Ullah", email = "mahsaanullah@example.com"},
+    {name = "Mahsaan Ullah", email = "real.ahsaan@gmail.com"},
 ]
 keywords = [
     "computer-vision", "hand-gesture", "virtual-mouse",
@@ -31,6 +31,7 @@ classifiers = [
 Homepage      = "https://github.com/MAhsaanUllah/GestureMouseCV"
 Repository    = "https://github.com/MAhsaanUllah/GestureMouseCV"
 "Bug Tracker" = "https://github.com/MAhsaanUllah/GestureMouseCV/issues"
+LinkedIn      = "https://www.linkedin.com/in/mahsaanullah/"
 
 [project.scripts]
 gesture-mouse = "main:main"

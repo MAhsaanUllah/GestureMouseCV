@@ -17,10 +17,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) conventi
 - **Hover effect** on UI panel buttons (steel-blue highlight + alpha blend).
 - **Structured logging** — console + rotating file log via Python `logging`.
 - `tests/test_gesture_logic.py` — Headless pytest suite (runs in CI).
-- `CHANGELOG.md` — This file.
-- `CONTRIBUTING.md` — Contribution guide.
-- `.gitignore` — Standard Python + project-specific ignores.
-- `pyproject.toml` — Project metadata.
+- `CHANGELOG.md` — Version history following Keep a Changelog conventions.
+- `.gitignore` — Comprehensive Python + image/video/OS ignores.
+- `pyproject.toml` — Modern Python packaging metadata (PEP 517/518).
 
 ### Changed
 - `main.py` refactored from a script to a clean entry point with argument
